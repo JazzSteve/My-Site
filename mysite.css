@@ -112,12 +112,16 @@ h2 {
 
 /*PROJECTS SECTION*/
 .projects-section {
-	background-image: url("projectsbck.jpg");
-	background-position: center;
- 	background-repeat: no-repeat;
- 	background-size: cover;
- 	position: relative;
-	/*background: #f7f6ed;*/
+ 	background-color: #ff69b4;
+	background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");/
+}
+
+.project-header h2 {
+	color: white;
+}
+
+.project-header p {
+	color: white;
 }
 
 .projects-section img {
@@ -127,10 +131,16 @@ h2 {
  	background-repeat: no-repeat;
  	background-size: cover;
  	position: relative;
+ 	transition: all .2s ease-in-out;
 }
 
-.projects:hover {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.projects img:hover {
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+	transform: scale(0.9);
+}
+
+.projects h5 {
+	color: white;
 }
 
 .project-section {
