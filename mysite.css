@@ -118,10 +118,13 @@ h2 {
 
 .project-header h2 {
 	color: white;
+	margin-top: 20px;
 }
 
 .project-header p {
-	color: white;
+	color: #faf7f9;
+	font-family: 'Dosis', sans-serif;
+	font-size: 19px;
 }
 
 .projects-section img {
@@ -132,19 +135,20 @@ h2 {
  	background-size: cover;
  	position: relative;
  	transition: all .2s ease-in-out;
+ 	margin-bottom: 10px;
+}
+
+.projects {
+	margin-bottom: 20px;
 }
 
 .projects img:hover {
-	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 	transform: scale(0.9);
 }
 
 .projects h5 {
 	color: white;
-}
-
-.project-section {
-	padding: 20px 0;
+	font-family: 'Dosis', sans-serif;
 }
 
 /*CONTACT SECTION*/
