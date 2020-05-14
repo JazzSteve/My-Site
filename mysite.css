@@ -1,8 +1,4 @@
 
-body {
-	background: #FFFAFA;
-}
-
 /*NAVBAR*/
 #mainnavbar {
 	background: white;
@@ -28,20 +24,25 @@ button:focus {
 
 .navbar-light .navbar-brand {
 	font-size: 1.7rem;
-	color: #c2ae4c;
+	color: #FF69B4;
 }
 
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
-    color: #c2ae4c;
+    color: #FF69B4;
 }
 
-.fas .fa-code {
-	color: #c2ae4c;
+.navbar-brand .fa-code {
+	color: #FF69B4;
+	/*color: #c2ae4c;*/
 }
 
 #mainnavbar .nav-link {
 	color: #FF69B4;
 	font-size: 20px;
+}
+
+#mainnavbar .nav-link:hover {
+	color: black;
 }
 
 .nav-item {
@@ -88,7 +89,7 @@ button:focus {
 h2 {
 	font-family: belotta;
 	color: #c2ae4c;
-	font-size: 50px;
+	font-size: 45px;
 }
 
 .about-content {
@@ -110,17 +111,35 @@ h2 {
 
 
 /*PROJECTS SECTION*/
-.projects {
-	background: #f7f6ed;
+.projects-section {
+	background-image: url("projectsbck.jpg");
+	background-position: center;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	position: relative;
+	/*background: #f7f6ed;*/
 }
 
-.projects img {
+.projects-section img {
 	height: 15rem;
+	width: 100%;
+	background-position: center;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	position: relative;
+}
+
+.projects:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project-section {
+	padding: 20px 0;
 }
 
 /*CONTACT SECTION*/
 .contact {
-	height: 15rem;
+	
 }
 
 
@@ -129,6 +148,21 @@ h2 {
 	.arrows {
 		display: none;
 	}
+
+	.projects-section .row {
+		text-align: center;
+	}
+
+	.projects {
+		margin-bottom: 30px;
+	}
+
+	.projects-section img {
+		height: 17rem;
+		width: 22rem;
+	}
+
+
 }
 
 
