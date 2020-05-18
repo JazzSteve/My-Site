@@ -199,13 +199,18 @@ h2 {
 	background-color: #0a0908;
 	background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
 	color: white;
+	padding-top: 30px;
 }
 
 .site-footer h6 {
-	color:#fff;
+	color: #ff69b4;
 	font-size:16px;
 	text-transform:uppercase;
 	letter-spacing:2px;
+}
+
+.footer-brand h6 {
+	font-size: 25px;
 }
 
 .site-footer hr {
@@ -213,12 +218,20 @@ h2 {
   opacity:0.5;
 }
 
+.footer-links {
+	list-style-type: none;
+}
+
+.footer-links a {
+	color: white;
+}
+
 .footer-links a:hover {
 	text-decoration: none;
 }
 
-.copright-text {
-	margin: 0;
+.copyright-text {
+	text-align: center;
 }
 
 
@@ -272,6 +285,14 @@ h2 {
 		display: flex;
 		align-items: center;
 		margin-bottom: 20px;
+	}
+
+	.site-footer {
+		text-align: center;
+	}
+
+	.footer-links {
+		padding: 0;
 	}
 }
 
