@@ -69,12 +69,12 @@ button:focus {
 	background: rgba(0, 0, 0, 0.1);
 }
 
-.arrows {
+/*.arrows {
 	position: absolute;
 	bottom:7%;
 	left:50%;
 	font-size: 2.85rem;
-}
+}*/
 
 /*ABOUT SECTION*/
 .about-img img {
