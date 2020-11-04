@@ -27,17 +27,12 @@ button:focus {
 	color: #FF69B4;
 }
 
-.navbar-light .navbar-toggler {
-	border-color: #c2ae4c;
-}
-
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
     color: #FF69B4;
 }
 
 .navbar-brand .fa-code {
 	color: #FF69B4;
-	/*color: #c2ae4c;*/
 }
 
 #mainnavbar .nav-link {
@@ -307,6 +302,14 @@ h2 {
 
 
 @media(max-width: 767px) {
+	.hero {
+		height: 600px;
+	}
+
+	.hero-text h1 {
+		font-size: 2em;
+	}
+
 	.about-content { 
 		text-align: center;
 		margin-bottom: 2rem;
