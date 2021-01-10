@@ -1,7 +1,7 @@
-$(document).ready(function(){
+/*$(document).ready(function(){
  $('.hero').height($(window).height());  //header height
  
-})
+})*/
 
 //NavBar Scroll Change
 
