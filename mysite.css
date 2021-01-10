@@ -58,7 +58,7 @@ button:focus {
     padding: 0;
     display: flex;
     align-items: center;
-    height: 40rem;
+    height: 36rem;
 }
 
 .heroimg {
@@ -88,7 +88,6 @@ button:focus {
     position: absolute;
     color: #9f6c4a;
     width: 100%;
-    margin-top: 2rem;
 }
 
 .hero-text h1 {
@@ -319,7 +318,7 @@ h2 {
 
 @media(max-width: 767px) {
     .hero1 {
-        height: 30rem;
+        height: 26rem;
         width: 100%;
     }
 
