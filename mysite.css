@@ -88,6 +88,7 @@ button:focus {
     position: absolute;
     color: #9f6c4a;
     width: 100%;
+    margin-top: 2rem;
 }
 
 .hero-text h1 {
@@ -128,7 +129,7 @@ button:focus {
 }
 
 h2 {
-    font-family: belotta;
+    font-family: 'Nothing You Could Do', cursive;
     color: #9f6c4a;
     font-size: 45px;
 }
@@ -140,7 +141,7 @@ h2 {
 
 .about-content h3 {
     font-family: belotta;
-    font-weight: lighter;
+    font-weight: 600;
     color: #9daeb5;
 }
 
@@ -150,6 +151,7 @@ h2 {
     font-weight: 300;
     font-family: 'Quicksand', sans-serif;
     color: #9f6c4a;
+    text-align: justify;
 }
 
 
@@ -357,6 +359,7 @@ h2 {
         display: flex;
         align-items: center;
         margin-bottom: 20px;
+        margin-top: 1.5rem;
     }
 
     .site-footer {
