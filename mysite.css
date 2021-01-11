@@ -343,6 +343,12 @@ h2 {
 
     .navbar-list {
         text-align: center;
+        height: 13rem;
+    }
+
+    .navbar-nav {
+        height: 13rem;
+        justify-content: space-around;
     }
 
     .nav-item {
