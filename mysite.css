@@ -282,7 +282,6 @@ h2 {
     transform: scale(0.9);
 }
 
-
 /*FOOTER*/
 .site-footer {
     background-color: #66442e;
@@ -447,5 +446,15 @@ h2 {
 
     .nav-link {
         font-size: 23px;
+    }
+}
+
+@media(min-width: 992px) {
+    .blog1 {
+        text-align: end;
+    }
+    
+    .blog2 {
+        text-align: start;
     }
 }
